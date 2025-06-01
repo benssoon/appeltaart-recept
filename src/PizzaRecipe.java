@@ -78,6 +78,12 @@ public class PizzaRecipe {
         System.out.println("12. Bake.");
     }
 
+    public void printTitle() {
+        System.out.println();
+        System.out.println("Pizza Pie Recipe");
+        System.out.println();
+    }
+
     public void printMeasurements() {
         this.allIngredients.forEach(i -> {
             if (i.getAmount() % 1 == 0) {
