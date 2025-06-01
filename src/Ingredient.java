@@ -4,7 +4,6 @@ public class Ingredient {
     private String name;
     private double amount;
 
-
     // Constructors
     public Ingredient(double amount, String unit, String name) {
         this.amount = amount;
