@@ -3,5 +3,10 @@ public class Main {
         ApplePieRecipe recipe = new ApplePieRecipe();
         recipe.printMeasurements();
         recipe.printSteps();
+
+        PizzaRecipe pizza = new PizzaRecipe();
+        pizza.printMeasurements();
+        pizza.printSteps();
+        pizza.credit();
     }
 }

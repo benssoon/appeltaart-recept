@@ -2,7 +2,7 @@ import java.util.*;
 
 public class ApplePieRecipe {
 
-    /********** Properties **********/
+    /*--------- Properties ---------*/
     private final ArrayList<Ingredient> allIngredients;
 
     private final Ingredient butter = new Ingredient(200, "gram", "ongezouten roomboter");
@@ -40,7 +40,7 @@ public class ApplePieRecipe {
     //9. Leg de stroken kruislings op de appeltaart. Met wat extra deegstroken werk je de rand rondom af. Gebruik het overgebleven ei om de bovenkant van het deeg te bestrijken
     //10. Zet de taart iets onder het midden van de oven. Bak de taart in 60 minuten op 170 graden Celsius (boven en onderwarmte) gaar en goudbruin.
 
-    /********** Constructor **********/
+    /*--------- Constructor ---------*/
     public ApplePieRecipe() {
         allIngredients = new ArrayList<Ingredient>();
         allIngredients.add(butter);
@@ -58,7 +58,7 @@ public class ApplePieRecipe {
 
 
 
-    /********** Methods **********/
+    /*--------- Methods ---------*/
 
 
     public void warmOven() {
